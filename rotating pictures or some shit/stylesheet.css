@@ -1,0 +1,140 @@
+/*body and container*/
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+#container {
+	width: 100%;
+	overflow: hidden;
+	margin: 50px auto;
+	background: white;
+}
+
+/*photobanner*/
+
+.photobanner {
+	height: 285px;
+	width: 5650px;
+  animation-play-state: running;
+  animation: bannermove 30s linear infinite;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.photobanner-wrap:hover .photobanner {
+  animation-play-state: paused;
+}
+
+
+/*keyframe animations*/
+
+@keyframes bannermove {
+ 0% {
+    transform: translate(0px,0);
+ }
+ 100% {
+    transform: translate(-25%,0);
+ }
+
+}
+
+.long-photo{
+  display: inline-block;
+  height: 285px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 695px;
+}
+
+.small-photo{
+  display: inline-block;
+  height: 285px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 305px;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 285px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 695px;
+}
+
+span.text-content span, span.text-content-small span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 285px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 695px;
+  opacity: 0;
+}
+
+span.text-content-small {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 285px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+  opacity: 0;
+}
+
+.long-photo:hover span.text-content, .small-photo:hover span.text-content-small {
+  opacity: 1;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 285px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 695px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content-small {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 285px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
