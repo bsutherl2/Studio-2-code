@@ -722,10 +722,10 @@ header.background .forground {
 header.background .text {
   position: absolute;
   top: 42%;
-  left: 23%;
+  left: 17%;
 }
 header.background .text h1 {
-  font-size: 90px;
+  font-size: 70px;
   font-family: sans-serif; Glober;
   color: #bf4040;
   -webkit-transform: translateY(-50%);
