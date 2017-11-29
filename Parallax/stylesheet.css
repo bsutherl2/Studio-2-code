@@ -12,7 +12,7 @@ header.background {
   background-attachment: fixed;
   background-position: right top;
   background-size: cover;
-  background-image: url(cutout.PNG);
+  background-image: url(cutout.png);
 
 }
 header.background .midground {
@@ -33,7 +33,7 @@ header.background .forground {
   width: 20%;
   height: 21%;
   background-size: contain;
-  background-image: url(1.jpg);
+  background-image: url(1.JPG);
   background-repeat: no-repeat;
 }
 #forground2 {
@@ -43,7 +43,7 @@ header.background .forground {
   width: 20%;
   height: 21%;
   background-size: contain;
-  background-image: url(2.jpg);
+  background-image: url(2.JPG);
   background-repeat: no-repeat;
 }
 #forground3 {
@@ -53,7 +53,7 @@ header.background .forground {
   width: 20%;
   height: 21%;
   background-size: contain;
-  background-image: url(3.jpg);
+  background-image: url(3.JPG);
   background-repeat: no-repeat;
 }
 #forground4 {
@@ -63,7 +63,7 @@ header.background .forground {
   width: 20%;
   height: 21%;
   background-size: contain;
-  background-image: url(4.jpg);
+  background-image: url(4.JPG);
   background-repeat: no-repeat;
 }
 header.background .text {
@@ -321,7 +321,7 @@ td:nth-child(4) {
   background-attachment: fixed;
   background-position: 80%;
   background-size: cover;
-  background-image: url(rapid2.jpg);
+  background-image: url(rapid2.JPG);
 
 }
 #background3 {
@@ -332,6 +332,6 @@ td:nth-child(4) {
   background-attachment: fixed;
   background-position: 80%;
   background-size: cover;
-  background-image: url(Thomas1.jpg);
+  background-image: url(Thomas1.JPG);
 
 }
