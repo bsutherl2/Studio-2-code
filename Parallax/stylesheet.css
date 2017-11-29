@@ -10,9 +10,9 @@ header.background {
   width: 100%;
   padding-bottom: 70%;
   background-attachment: fixed;
-  background-position: 80%;
+  background-position: right top;
   background-size: cover;
-  background-image: url(main.jpg);
+  background-image: url(cutout.PNG);
 
 }
 header.background .midground {
@@ -28,23 +28,53 @@ header.background .midground {
 }
 header.background .forground {
   position: absolute;
-  right: -6%;
-  top: 63%;
-  width: 30%;
+  right: 13%;
+  top: 15%;
+  width: 20%;
   height: 21%;
   background-size: contain;
-  background-image: url(http://pngimg.com/upload/hands_PNG919.png);
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+}
+#forground2 {
+  position: absolute;
+  right: 75%;
+  top: 22%;
+  width: 20%;
+  height: 21%;
+  background-size: contain;
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+}
+#forground3 {
+  position: absolute;
+  right: 75%;
+  top: 75%;
+  width: 20%;
+  height: 21%;
+  background-size: contain;
+  background-image: url(3.jpg);
+  background-repeat: no-repeat;
+}
+#forground4 {
+  position: absolute;
+  right: 9%;
+  top: 75%;
+  width: 20%;
+  height: 21%;
+  background-size: contain;
+  background-image: url(4.jpg);
   background-repeat: no-repeat;
 }
 header.background .text {
   position: absolute;
-  top: 30%;
-  left: 14%;
+  top: 42%;
+  left: 23%;
 }
 header.background .text h1 {
-  font-size: 85px;
-  font-family: BentonSans;
-  color: #000000;
+  font-size: 100px;
+  font-family: sans-serif; Glober;
+  color: #bf4040;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -168,7 +198,7 @@ img {
 }
 
 p {
-  font-size: 0.95em;
+  font-size: 2em;
   font-weight: 300;
   line-height: 1.6em;
   margin-top: 1.2em;
@@ -210,7 +240,7 @@ h2 {
 }
 
 h3 {
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.5em;
   margin-left: 15%;
@@ -291,7 +321,7 @@ td:nth-child(4) {
   background-attachment: fixed;
   background-position: 80%;
   background-size: cover;
-  background-image: url(Thomas1.jpg);
+  background-image: url(rapid2.jpg);
 
 }
 #background3 {
@@ -302,6 +332,6 @@ td:nth-child(4) {
   background-attachment: fixed;
   background-position: 80%;
   background-size: cover;
-  background-image: url(Diana.jpg);
+  background-image: url(Thomas1.jpg);
 
 }
