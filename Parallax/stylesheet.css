@@ -840,7 +840,7 @@ img {
 .title {
   font-size: 2em;
   font-weight: 600;
-  font-family: 'Raleway', Verdana, sans-serif;
+  font-family: 'Georgia', Verdana, sans-serif;
   color: #4c4c4c;
   margin-top: 0;
   margin-bottom: 0.4em;
@@ -851,7 +851,7 @@ img {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 300;
   line-height: 1.6em;
   margin-top: 1.2em;
@@ -903,6 +903,7 @@ h3 {
 
 .bylines {
   font-variant: small-caps;
+  color: #fffff;
 }
 
 h4 {
@@ -917,19 +918,19 @@ h4 {
 
 .link_header:link {
   text-decoration: none;
-  color: #003366;
-  font-family: 'Raleway', Verdana, sans-serif;
+  color: #fffff;
+  font-family: 'Benton', Verdana, sans-serif;
 }
 
 .link_header:hover {
   color: #423A35;
   text-decoration: underline;
-  font-family: 'Raleway', Verdana, sans-serif;
+  font-family: 'Benton', Verdana, sans-serif;
 }
 
 .link_header:visited {
   color: #b26e6e;
-  font-family: 'Raleway', Verdana, sans-serif;
+  font-family: 'Georgia';
 }
 
 
@@ -987,4 +988,8 @@ td:nth-child(4) {
   background-size: cover;
   background-image: url(Thomas1.JPG);
 
+}
+#colorstrip{
+    height: 1px;
+    border-bottom:solid 40px black;
 }
